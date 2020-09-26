@@ -660,10 +660,11 @@ class OBJPROP_PT_Settings(MainPanel, bpy.types.Panel):
 class MenuPanel:
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    if bpy.context.scene.ObjProp_settings.active:
-        bl_category = bpy.context.object.ObjProp_menu.name
-    else:
-        bl_category = bpy.context.scene.ObjProp_settings.global_name
+    bl_category = "CustomUI"
+    #if bpy.context.scene.ObjProp_settings.active:
+    #    bl_category = bpy.context.object.ObjProp_menu.name
+    #else:
+    #    bl_category = bpy.context.scene.ObjProp_settings.global_name
     
 class OBJPROP_PT_MenuPanel(MenuPanel, bpy.types.Panel):
     bl_idname = "OBJPROP_PT_MenuPanel"
