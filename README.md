@@ -1,4 +1,4 @@
-# MenuCreator
+# Menu Creator
 A tool to create custom UI from the list of properties of an object.
 
 ## Features
