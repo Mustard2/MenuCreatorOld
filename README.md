@@ -7,7 +7,7 @@ A tool to create custom UI from the list of properties of an object.
 - active object or global UI settings
 
 ## Current limitations
-- at the moment the addon can create UI only on the .blend file. In the future it will generate a .py file to export
+- at the moment the addon can create UI on the .blend file, and it also imports menus when objects are appended in new .blend files. In the future it will also generate a .py file to export
 - only one global UI is supported, while a dedicated UI for each object is possible
 
 
