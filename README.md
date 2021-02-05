@@ -1,3 +1,5 @@
+## This is an old archived project. Check https://github.com/Mustard2/MenuCreator for the latest completely rewritten version.
+
 # Menu Creator
 A tool to create custom UI from the list of properties of an object.
 
